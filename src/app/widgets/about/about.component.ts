@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {PageActionsService} from './../../services/page-actions.service';
+import { PageActionsService } from './../../services/page-actions.service';
 
 @Component({
   selector: 'widget-about',
@@ -22,14 +22,6 @@ ngOnInit() {
                 		position: "CEO & Founder",
                 		linkedin: "https://www.linkedin.com/in/1davidwalters/",
                 		github: "https://github.com/DavidWalters123"
-					},
-					{
-                		picture: "./../../../assets/images/peoples/16.jpg",
-                		described: "",
-                		name: "Jean-Marc Fisz",
-                		position: "PROJECT MANAGEMENT",
-                		linkedin: "https://www.linkedin.com/in/jean-marc-fisz-38573b80/?locale=en_US",
-                		github: ""
                 	},
                 	{
                 		picture: "./../../../assets/images/peoples/6.jpg",
@@ -56,7 +48,14 @@ ngOnInit() {
                 		position: "Blockchain Developer",
                 		linkedin: "https://www.linkedin.com/in/hagerchristian/",
                 		github: "https://github.com/metachris"
-                	},
+					},
+					{
+						picture: "./../../../assets/images/peoples/16.jpg",
+                		described: "",
+                		name: "Jean-Marc Fisz",
+                		position: "Project Management",
+                		linkedin: "https://www.linkedin.com/in/jean-marc-fisz-38573b80/?locale=en_US"
+					},
                 	{
                 		picture: "./../../../assets/images/peoples/15.jpg",
                 		described: "",
@@ -64,20 +63,12 @@ ngOnInit() {
                 		position: "Cyber Security",
                 		linkedin: "https://www.linkedin.com/in/fmarcelo/",
                 		github: "https://github.com/ferreiramarcelo"
-					},
-					{
-						picture: "./../../../assets/images/peoples/10.jpg",
-                		described: "",
-                		name: "Shoaib Mohammed",
-                		position: "DEVELOPER",
-                		linkedin: "https://www.linkedin.com/in/shoaib-a-169a649/",
-                		github: ""
-					},
+                	},
                 	{
                 		picture: "./../../../assets/images/peoples/9.jpg",
                 		described: "",
                 		name: "Nataly Chigireva",
-                		position: "MARKETING",
+                		position: "Marketing",
                 		linkedin: "https://www.linkedin.com/in/nataliachigireva/",
                 		github: ""
                 	},
@@ -104,13 +95,13 @@ ngOnInit() {
                 		position: "Marketing",
                 		linkedin: "https://www.linkedin.com/in/nitesh-maheshwari-b0110963/",
                 		github: ""
-					}
+                	}
                 ];
     this.advisors = [{
             		picture: "./../../../assets/images/peoples/14.jpg",
             		described: "",
             		name: "Istvan Szukacs",
-            		position: "TECHNICAL ADVISOR",
+            		position: "Technical Advisor",
             		linkedin: "https://www.linkedin.com/in/iszukacs/",
             		github: "https://github.com/l1x"
             	},
@@ -145,12 +136,12 @@ ngOnInit() {
             		position: "Legal Advisor",
             		linkedin: "",
             		github: ""
-				},
-				{
+            	},
+            	{
             		picture: "./../../../assets/images/peoples/17.jpg",
             		described: "",
             		name: "Brenn Hill",
-            		position: "BLOCK CHAIN ADVISOR ",
+            		position: "Block Chain Advisor",
             		linkedin: "https://www.linkedin.com/in/brennhill/",
             		github: "https://github.com/brennhill"
             	}

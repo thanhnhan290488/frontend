@@ -11,6 +11,7 @@ export class AboutComponent implements OnInit {
   public teams: any;
   public advisors: any;
   clackMember:number=164;
+  
   constructor(
     private pageAction: PageActionsService
   	) { }
